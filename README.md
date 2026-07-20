@@ -1,10 +1,10 @@
 ## Resumen
 
-Este proyecto consiste en una aplicación de consola desarrollada en **C#** que permite calcular el **Impuesto Sobre la Renta (ISR)** de un empleado en la República Dominicana para el año 2026.
+El presente proyecto consiste en una aplicación de consola (Console App) desarrollada en C#, la cual permite calcular el Impuesto Sobre la Renta (ISR) de un empleado en la República Dominicana en el presente año 2026.
 
-El programa solicita el sueldo mensual bruto, calcula el sueldo anual y aplica la escala correspondiente del ISR. Cuando el sueldo anual no supera el monto exento establecido, el programa muestra **N/A**. También valida que el usuario introduzca un valor numérico mayor que cero.
+Este programa solicita el sueldo mensual bruto, luego calcula el sueldo anual, y aplica la escala correspondiente del Impuesto Sobre la Renta. En caso de que el sueldo anual no supere el monto exento establecido, el programa muesta "N/A". A parte de esto, el programa tambien valida que el usuario introduzca un valor numérico mayor que 0.
 
-Para comprobar su funcionamiento se realizaron diferentes escenarios con sueldos mensuales de **RD$30,000**, **RD$45,000**, **RD$60,000** y **RD$100,000**.
+Para comprobar el funcionamiento del programa, se realizaron diferentes escenarios con sueldos mensuales de **RD$30,000**, **RD$45,000**, **RD$60,000** y **RD$100,000**.
 
 ## Escenarios de prueba
 
@@ -41,5 +41,4 @@ Para comprobar su funcionamiento se realizaron diferentes escenarios con sueldos
 
 ## Validación de entrada
 
-El programa muestra un mensaje de error cuando el usuario introduce letras, un sueldo igual a cero o un sueldo negativo.
-
+El programa nos muestra un mensaje de error cuando el usuario introduce letras, sueldos iguales a 0 o algún sueldo negativo.
