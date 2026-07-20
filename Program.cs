@@ -24,7 +24,7 @@ class Program
         decimal sueldoAnual = sueldoMensual * 12;
         decimal isrAnual;
 
-        // Escala anual del ISR para personas físicas, vigente en 2026.
+        
         if (sueldoAnual <= 416220.00m)
         {
             isrAnual = 0;
