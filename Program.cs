@@ -44,6 +44,10 @@ class Program
 
         decimal isrMensual = isrAnual / 12;
 
+        //Mostrar resultados
+
+        
+
         Console.WriteLine();
         Console.WriteLine("--------------- RESULTADO -------------------");
         Console.WriteLine($"Sueldo mensual: {sueldoMensual.ToString("C2", culturaRD)}");
