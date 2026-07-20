@@ -58,5 +58,6 @@ class Program
 
         Console.WriteLine("----------------------------------------------");
         Console.WriteLine("Cálculo educativo basado en la escala DGII 2026.");
+        Console.ReadKey();
     }
 }
