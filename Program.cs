@@ -46,23 +46,15 @@ class Program
 
         //Mostrar resultados
 
-        
+        Console.WriteLine("\n--------------- RESULTADO -------------------");
+        Console.WriteLine("Sueldo mensual: {0}", sueldoMensual.ToString("C2", culturaRD));
+        Console.WriteLine("Sueldo anual:   {0}", sueldoAnual.ToString("C2", culturaRD));
 
-        Console.WriteLine();
-        Console.WriteLine("--------------- RESULTADO -------------------");
-        Console.WriteLine($"Sueldo mensual: {sueldoMensual.ToString("C2", culturaRD)}");
-        Console.WriteLine($"Sueldo anual:   {sueldoAnual.ToString("C2", culturaRD)}");
+        string isrMensualTexto = isrAnual == 0 ? "N/A" : isrMensual.ToString("C2", culturaRD);
+        string isrAnualTexto = isrAnual == 0 ? "N/A" : isrAnual.ToString("C2", culturaRD);
 
-        if (isrAnual == 0)
-        {
-            Console.WriteLine("ISR mensual:    N/A");
-            Console.WriteLine("ISR anual:      N/A");
-        }
-        else
-        {
-            Console.WriteLine($"ISR mensual:    {isrMensual.ToString("C2", culturaRD)}");
-            Console.WriteLine($"ISR anual:      {isrAnual.ToString("C2", culturaRD)}");
-        }
+        Console.WriteLine("ISR mensual:    {0}", isrMensualTexto);
+        Console.WriteLine("ISR anual:      {0}", isrAnualTexto);
 
         Console.WriteLine("----------------------------------------------");
         Console.WriteLine("Cálculo educativo basado en la escala DGII 2026.");
